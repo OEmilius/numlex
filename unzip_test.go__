@@ -1,0 +1,21 @@
+package numlex
+
+import (
+	"fmt"
+	//	"time"
+)
+
+//func ExampleUnzip() {
+//	t1 := time.Now()
+//	files, err := Unzip("Port_All_Full_201806280000_1569.zip", "unzipped")
+//	fmt.Println(files, err, time.Now().Sub(t1))
+//	//Output: [unzipped\Port_All_Full_201806280000_1569.csv] <nil>
+//}
+
+func ExampleUnzipPortInc() {
+	//t1 := time.Now()
+	files, err := Unzip("Port_Increment_201806281400_20179.zip", "unzipped")
+	//fmt.Println(files, err, time.Now().Sub(t1))
+	fmt.Println(files, err)
+	//Output: [unzipped\Port_Increment_201806281400_20179.csv] <nil>
+}
