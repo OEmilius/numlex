@@ -2,8 +2,8 @@ package numlex
 
 import (
 	//	"log"
-	"numlex/numplan"
-	"numlex/portations"
+	"github.com/OEmilius/numlex/numplan"
+	"github.com/OEmilius/numlex/portations"
 )
 
 //central database of migrated numbers

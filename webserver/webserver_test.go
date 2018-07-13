@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"net/http"
 	"net/http/httptest"
-	"numlex"
 	"testing"
+
+	"github.com/OEmilius/numlex"
 )
 
 func TestServerhomeHandler(t *testing.T) {

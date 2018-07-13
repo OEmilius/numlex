@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"numlex"
+
+	"github.com/OEmilius/numlex"
 )
 
 var CDMN *numlex.CDMN

@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"numlex"
-	"numlex/webserver"
+
+	"github.com/OEmilius/numlex"
+	"github.com/OEmilius/numlex/webserver"
 )
 
 func main() {
